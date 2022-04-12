@@ -1,0 +1,55 @@
+.container {
+    background-color: #E5E5E5;
+}
+.barra-topo {
+    width: 375px;
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 26px;
+    
+}
+.barra-topo > img {
+    width: 75px;
+    height: 53px;
+    margin-left: 22px;
+}
+.icone-topo {
+    width: 45px;
+    height: 45px;
+    margin-right: 21px;
+}
+
+.barra-digitar {
+    width: 375px;
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+
+}
+input {
+    border: none;
+}
+input:focus-visible {
+    border: none;
+    outline: none;
+}
+.icone-envio {
+    width: 26px;
+    height: 26px;
+    margin-right: 21px;
+}
