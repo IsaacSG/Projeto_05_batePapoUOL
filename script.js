@@ -36,7 +36,7 @@ function verificarConeccao(){
 }
 function enviarMensagem(){
     const mensagemEnviada = document.querySelector(".mensagemEnviar").value;
-    let mensagemParaEnviar = {name: texto, to: "Todos", text: mensagemEnviada,type: "message"};
+    let mensagemParaEnviar = {from: texto, to: "Todos", text: mensagemEnviada, type: "message"};
     const promisse = axios.post('https://mock-api.driven.com.br/api/v6/uol/messages', mensagemParaEnviar);
 }
 entrarSala();
