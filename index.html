@@ -9,16 +9,20 @@
     <title>Projeto_05_batePapoUOL</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container">        
         <div class="barra-topo">
             <img src="/Projeto_05_batePapoUOL/images/logo 1.png">
             <ion-icon class="icone-topo" name="people"></ion-icon>
         </div>
+        <div class="mensagens">
+            
+        </div>
         <div class="barra-digitar">
-        <input type="text" placeholder="Escreva aqui...">
-        <ion-icon class="icone-envio" name="paper-plane-outline"></ion-icon>
+        <input class="mensagemEnviar" type="text" placeholder="Escreva aqui...">
+        <ion-icon onclick="enviarMensagem()" class="icone-envio" name="paper-plane-outline"></ion-icon>
     </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script src="script.js"></script>
 </body>
